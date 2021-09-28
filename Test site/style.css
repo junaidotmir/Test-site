@@ -1,7 +1,3 @@
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto', sans-serif;*/
-
  * {
     margin: 0;
     padding: 0;
@@ -24,7 +20,6 @@ header .top-bar-notification {
     align-items: center;
     column-gap: 413px;
     padding: 19px 30px;
-    /* 8padding-left: 467px; */ 
 }
 
 .top-bar-notification a {
@@ -99,7 +94,6 @@ header .top-bar-notification {
 .secondary-nav nav li {
     transform: skewx(-17deg);
     transition: 0.3s;
-    /* width: 100%; */
     text-align: center;
     display: block;
 }
@@ -112,7 +106,6 @@ header .top-bar-notification {
     text-decoration: none;
     padding: 20px 22px;
     transform: skewx(17deg);
-    /* min-width: 90px; */
 }
 
 .secondary-nav nav li.active,
@@ -167,7 +160,6 @@ header .top-bar-notification {
     row-gap: 5px;
     padding: 0 50px;
     height: 60px;
-    /* padding-right: 70px; */
     padding-right: 240px;
 }
 
@@ -186,16 +178,8 @@ header .top-bar-notification {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* position: relative; */
     margin-top: 90px;
 }
-
-/* .hero-section .hero .content {
-    display: flex;
-    column-gap: 130px;
-    justify-content: space-between;
-    align-items: center;
-} */
 
 .hero-section .hero .play-button img {
     padding-left: 5px;
@@ -207,7 +191,6 @@ header .top-bar-notification {
     border-radius: 50%;
     position: absolute;
     margin-left: 60px;
-    /* right: 345px; */
     margin-top: 135px;
     z-index: 1;
 }
@@ -710,8 +693,6 @@ button {
 
     .utility-nav img {
         width: 95px;
-        /* padding: 20px 15px; */
-
     }
     
     .utility-nav .logo-burger .burger {
@@ -881,126 +862,4 @@ button {
         margin-top: 50px;
     }
   }
-
-  @media screen and (max-width: 375px) {
-    /* .utility-nav {
-        display: block;
-        padding: 0;
-    }
-
-    .utility-nav img {
-        width: 95px;
-        padding: 20px 15px;
-
-    }
-
-    .utility-nav .buttons .membership, .utility-nav .buttons .account {
-        width: 188px;
-        font-size: 16px;
-    }
-
-    .utility-nav .buttons .account {
-        margin-left: -5px;
-    }
-
-    .utility-nav .buttons .membership, .utility-nav .buttons .account,
-    .utility-nav .buttons p{
-        transform: skew(0);
-    }
-
-    .secondary-nav, .title-section {
-        display: none;
-    } */
-
-    /* .hero-section .hero {
-        flex-direction: column-reverse;
-        margin: 0;
-    }
-    .hero-section .hero .text-content {
-        width: 345px;
-    }
-    .hero-section .hero .text-content h1 {
-        font-size: 30px;
-        padding-bottom: 10px;
-        line-height: 35px;
-    }
-    .hero-section .hero .text-content p {
-        font-size: 16px;
-    }
-    .hero-section .hero .video-thumbnail .big-shoe {
-        margin: auto;
-    }
-    .hero-section .hero .video-thumbnail .big-shoe img{
-        align-self: center;
-        height: 250px;
-    }
-    .hero-section .hero .play-button {
-        margin-left: 90px;
-        margin-top: 85px;
-    }
-    .hero-section .hero .play-button {
-        width: 25px;
-        padding: 20px 24px;
-    }
-    .hero-section .hero .play-button img {
-        width: 25px;
-        padding: 0;
-    } */
-
-    /* .main {
-        margin: auto;
-    }
-    .left-side .slider .slider-img .image:nth-child(3), 
-    .left-side .slider .slider-img .image:nth-child(4), 
-    .left-side .slider .slider-img .arrow {
-        display: none;
-    }
-    .left-side .slider .slider-img .image {
-        width: 330px;
-    }
-
-    .post-section .post {
-        max-width: 345px;
-    }
-
-    .zigzag {
-        flex-direction: column;
-    }
-    .zigzag + .second {
-        flex-direction: column-reverse;
-    }
-    .zigzag .image-1, .zigzag .image-2 {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        width: auto;
-        height: 200px;
-    }
-    .zigzag .content {
-        padding: 20px 11px;
-    }
-    
-    .aside {
-        margin-top: 50px;
-    } */
-
-    /* .inner form {
-        padding: 0 15px;
-    } */
-
-    /* .inner {
-        width: auto;
-        align-items: center;
-    }
-    .inner h5 {
-        font-size: 24px;
-    }
-    .inner form .container {
-        display:  block;
-    }
-
-    .inner form .container input, .container select, textarea {
-        width: 345px;
-    }
-    .inner form .container select {
-        width: 367px;
-    } */
   }
